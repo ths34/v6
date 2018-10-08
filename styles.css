@@ -123,7 +123,7 @@ main {
 
   }
  
-  @media screen and (max-width: 699px) {
+  @media screen and (max-width: 699px){
   
     .card {
       border-bottom-style: 2px solid black;
