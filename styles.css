@@ -76,12 +76,11 @@ main {
 
 .card__tags {
   margin-top: 10px;
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-
   list-style: none;
+  
 }
 
 .card__tag {
@@ -123,8 +122,8 @@ main {
     margin-bottom: 20px;
 
   }
-
-  @media (max-width: 699px) {
+ 
+  @media screen and (max-width: 699px) {
   
     .card {
       border-bottom-style: 2px solid black;
@@ -137,6 +136,7 @@ main {
     }
   
   }
+
  
 @media (min-width: 700px) {
   
